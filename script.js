@@ -26,8 +26,9 @@ function loadImage(event) {
 imageInput.addEventListener('change', loadImage);
 
 function changeLayout(type) {
-  memeContainer.style.border = type[0];
-  bodyElement.style.backgroundImage = type[1];
+  const [borderConf, backgroundConf] = type;
+  memeContainer.style.border = borderConf;
+  bodyElement.style.backgroundImage = backgroundConf;
 }
 
 function baseLayout() {
