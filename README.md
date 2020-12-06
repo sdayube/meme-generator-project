@@ -1,6 +1,6 @@
 # Projeto Meme Generator!
 
-Projeto que desenvolve um pequeno gerador de memes que aceita imagens externas e possui alguns templates padrão. A importação utiliza o método 'URL.createObjectURL()' e um event listener direcionado ao input do tipo 'file'! Os botões de elementos também são interativos, trocando as cores do layout por meio do JS.
+Projeto que desenvolve um pequeno gerador de memes que aceita imagens externas e possui alguns templates padrão. A importação utiliza o método `URL.createObjectURL()` e um event listener direcionado ao input do tipo `file`! Os botões de elementos também são interativos, trocando as cores do layout por meio do JS.
 
 ## Requisitos Obrigatórios:
 
